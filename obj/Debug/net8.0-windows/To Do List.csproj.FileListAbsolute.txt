@@ -30,3 +30,5 @@ D:\SCC\To-Do-List\obj\Debug\net8.0-windows\refint\To Do List.dll
 D:\SCC\To-Do-List\obj\Debug\net8.0-windows\To Do List.pdb
 D:\SCC\To-Do-List\obj\Debug\net8.0-windows\To Do List.genruntimeconfig.cache
 D:\SCC\To-Do-List\obj\Debug\net8.0-windows\ref\To Do List.dll
+D:\Code\To Do List\obj\Debug\net8.0-windows\To_Do_List.Form1.resources
+D:\Code\To Do List\obj\Debug\net8.0-windows\To Do List.csproj.GenerateResource.cache

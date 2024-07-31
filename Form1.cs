@@ -11,17 +11,21 @@ public partial class Form1 : Form
     {
         string task = textBox1.Text.ToString();
         string todaytask = textBox2.Text.ToString();
-        string remin = textBox3.Text.ToString();
+        string reminder = textBox3.Text.ToString();
 
         if (checkBox1.Checked)
         {
             listBox1.Items.Add(task);
-            listBox1.Items.Add(todaytask);
+            if(todaytask == "") {
+                listBox1.Items.Add("TODAY");
+            }
+            else {
+                listBox1.Items.Add(todaytask);
+            }
         }
         else
         {
-            listBox2.Items.Add(task);
-            listBox2.Items.Add(todaytask);
+            listBox2.Items.Add(reminder);
         }
 
         textBox1.Clear();

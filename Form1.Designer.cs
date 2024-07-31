@@ -152,7 +152,7 @@ partial class Form1
         label5.Name = "label5";
         label5.Size = new Size(54, 20);
         label5.TabIndex = 5;
-        label5.Text = "REMIN";
+        label5.Text = "REMIND";
         // 
         // button5
         // 
@@ -162,6 +162,7 @@ partial class Form1
         button5.TabIndex = 6;
         button5.Text = "ADD";
         button5.UseVisualStyleBackColor = true;
+        button5.Click += button5_Click;
         // 
         // button6
         // 
@@ -216,7 +217,7 @@ partial class Form1
         checkBox1.Name = "checkBox1";
         checkBox1.Size = new Size(69, 24);
         checkBox1.TabIndex = 13;
-        checkBox1.Text = "urgen";
+        checkBox1.Text = "Urgent";
         checkBox1.UseVisualStyleBackColor = true;
         // 
         // Form1
